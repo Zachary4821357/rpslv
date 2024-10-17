@@ -1,0 +1,26 @@
+print("welcome to rock paper scissors lizard, spock!")
+print("Note, you will need a second person next to you in order to play.")
+namee =input("What is P1's name?: ")
+name =input("What is P2's name?: ")
+print("P1 will go first!")
+choice1 =input("What will you choose?: ")
+print("P2 will go second!")
+choice2 =input("What will you choose?: ")
+if choice2 == "rock" and choice1 == "paper":
+    print(name, "wins!")
+if choice2 == "paper" and choice1 == "scissors":
+    print(name, "wins!")
+if choice2 == "paper" and choice1 == "rock":
+    print(namee, "wins!")
+if choice2 == "scissors" and choice1 == "paper":
+    print(namee, "wins!")
+if choice2 == "paper" and choice1 == "paper":
+    print("its a draw")
+if choice2 == "rock" and choice1 == "rock":
+    print("its a draw")
+if choice2 == "scissors" and choice1 == "scissors":
+    print("its a draw")
+if choice2 == "lizard" and choice1 == "rock":
+    print(name, "wins!")
+if choice2 == "spock" and choice1 == "paper":
+    print(name,"Wins")
